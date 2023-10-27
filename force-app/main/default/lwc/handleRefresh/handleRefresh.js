@@ -13,6 +13,8 @@ export default class HandleRefresh extends LightningElement {
   }
 
   refresh() {
+    console.log('REFRESH RECEIVED');
+    
     return new Promise((resolve) => {
       const currentDate = new Date();
       this.eventReceivedTimestamp = `${currentDate.toDateString()} - ${currentDate.toLocaleTimeString()}`;
