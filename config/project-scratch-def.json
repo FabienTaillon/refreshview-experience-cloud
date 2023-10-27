@@ -1,7 +1,7 @@
 {
   "orgName": "Texeï",
   "edition": "Developer",
-  "features": ["EnableSetPasswordInApi", "Communities"],
+  "features": ["EnableSetPasswordInApi", "Communities", "Sites"],
   "settings": {
     "lightningExperienceSettings": {
       "enableS1DesktopEnabled": true,
